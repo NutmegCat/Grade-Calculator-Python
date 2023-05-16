@@ -25,7 +25,7 @@ class gradeConverter:
     elif isinstance(grade, int):
         print("\nInvalid\n")
         
-    if int(grade) >= 90:
+    if int(grade) == 100:
         f = open("congratulations.txt", "w")
         f.write("wOw cOnGrAtUlAtIoNs :D\n")
         f.close
